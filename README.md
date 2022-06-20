@@ -1,3 +1,17 @@
+# my travel journal.
+This is the 2nd Solo Project task given at `Scrimba.com`, on `React Learning Course`
+
+The project currently uses hardcoded data inside `data.js`. It's planned to implement some backend in the future.
+
+The link to Figma design can be found [here](https://www.figma.com/file/XuMR4dMXao3Qr9hVVUOq4h/My-Travel-Journal)
+
+---
+
+# Project Preview
+![my travel journal interface](./src/images/preview.png)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
