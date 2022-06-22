@@ -1,0 +1,14 @@
+nav {
+  padding-left: 20px;
+  background-color: #f55a5a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.nav--logo {
+  width: 24px;
+  margin-right: 7px;
+}

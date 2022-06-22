@@ -1,4 +1,5 @@
 import location from "../images/location.png";
+import "../styles/Places.css";
 
 function Places(props) {
   return (

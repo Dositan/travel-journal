@@ -1,4 +1,5 @@
 import globeImg from "../images/globe.png";
+import "../styles/Navbar.css";
 
 function Navbar() {
   return (
