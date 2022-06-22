@@ -15,6 +15,7 @@ nav {
   background-color: #f55a5a;
   color: white;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: auto;
 }
