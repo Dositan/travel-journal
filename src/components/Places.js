@@ -3,7 +3,12 @@ import "../styles/Places.css";
 function Places(props) {
   return (
     <div className="places">
-      <img className="places--preview" src={props.imageUrl} alt="preview" />
+      <img
+        className="places--preview"
+        src={props.imageUrl}
+        alt={props.title}
+        height={168}
+      />
       <div className="places--info">
         <div className="places--location">
           <img src="/images/location.png" alt="location" />
@@ -16,7 +21,7 @@ function Places(props) {
         <span className="date">
           {props.startDate} - {props.endDate}
         </span>
-        <p>{props.description}</p>
+        <p className="places--description">{props.description}</p>
       </div>
     </div>
   );
