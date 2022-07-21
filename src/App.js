@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Places from "./components/Places";
-import data from "./data";
+import data from "./data.json";
 
 function App() {
   const places = data.map((item) => {
