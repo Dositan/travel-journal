@@ -1,4 +1,3 @@
-import location from "../images/location.png";
 import "../styles/Places.css";
 
 function Places(props) {
@@ -7,9 +6,11 @@ function Places(props) {
       <img className="places--preview" src={props.imageUrl} alt="preview" />
       <div className="places--info">
         <div className="places--location">
-          <img src={location} alt="location" />
+          <img src="/images/location.png" alt="location" />
           <span>{props.location.toUpperCase()}</span>
-          <a href={props.googleMapsUrl}>View on Google Maps</a>
+          <a href={props.googleMapsUrl} target="_blank" rel="noreferrer">
+            View on Google Maps
+          </a>
         </div>
         <h1>{props.title}</h1>
         <span className="date">
