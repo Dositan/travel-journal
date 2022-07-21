@@ -5,7 +5,7 @@ function Places(props) {
     <div className="places">
       <img
         className="places--preview"
-        src={props.imageUrl}
+        src={props.image}
         alt={props.title}
         height={168}
       />
