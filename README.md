@@ -8,7 +8,7 @@ The link to Figma design can be found [here](https://www.figma.com/file/XuMR4dMX
 ---
 
 # Project Preview
-![my travel journal interface](./src/images/preview.png)
+![my travel journal interface](./public/images/preview.png)
 
 ---
 
