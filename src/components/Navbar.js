@@ -10,7 +10,7 @@ function Navbar() {
         </li>
         <div className="links">
           <li>
-            <a href="https://dositan-homepage.vercel.app/">Portfolio</a>
+            <a href="https://www.dosek.xyz/">Portfolio</a>
           </li>
           <li>
             <a href="https://instagram.com/dastanozgeldi/">Instagram</a>
